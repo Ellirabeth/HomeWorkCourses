@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="junit-4.13-beta-1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/JUnit/junit-4.13-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Lombok/lombok.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/TestNG/jcommander.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/TestNG/testng.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HomeWorkCourses.iml" filepath="$PROJECT_DIR$/HomeWorkCourses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kulish/kulish.iml" filepath="$PROJECT_DIR$/kulish/kulish.iml" />
     </modules>
   </component>
 </project>

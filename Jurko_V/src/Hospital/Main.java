@@ -7,7 +7,7 @@ import Hospital.humanAbstractFactory.HumanFactory;
 public class Main {
     public static void main (String arqs[]) {
         HumanFactory humanFactory = FactoryProducer.getFactory(FactoryProducer.HumanType.MALE);
-        Human human = humanFactory.createMaleHuman(HumanFactory.HumanBodyType.MESOMORPH, -7);
+        Human human = humanFactory.createMaleHuman(HumanFactory.HumanBodyType.MESOMORPH, -9);
         System.out.println(human.getHealth());
         System.out.println(human.getHumanType());
         System.out.println(human.getHumanBodyType());

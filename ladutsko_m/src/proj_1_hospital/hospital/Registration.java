@@ -1,4 +1,4 @@
-package hospital;
+package proj_1_hospital.hospital;
 
 
 import java.util.ArrayList;
@@ -8,11 +8,11 @@ import java.util.Map;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import objects.Patient;
-import objects.PatientImpl;
-import objects.Person;
-import services.Service;
-import services.ServiceFactory;
+import proj_1_hospital.objects.Patient;
+import proj_1_hospital.objects.PatientImpl;
+import proj_1_hospital.objects.Person;
+import proj_1_hospital.services.Service;
+import proj_1_hospital.services.ServiceFactory;
 
 @NoArgsConstructor
 @EqualsAndHashCode

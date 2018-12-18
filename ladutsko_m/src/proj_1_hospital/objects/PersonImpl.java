@@ -1,8 +1,8 @@
-package objects;
+package proj_1_hospital.objects;
 
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
-import services.ServiceType;
+import proj_1_hospital.services.ServiceType;
 
 
 @EqualsAndHashCode

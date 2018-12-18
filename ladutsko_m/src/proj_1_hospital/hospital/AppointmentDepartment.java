@@ -1,7 +1,6 @@
-package hospital;
+package proj_1_hospital.hospital;
 
-import objects.Patient;
-import services.ServiceType;
+import proj_1_hospital.services.ServiceType;
 
 final class AppointmentDepartment extends DepartmentBase{
     private static AppointmentDepartment instance;

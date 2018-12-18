@@ -1,6 +1,6 @@
-package hospital;
-import objects.Patient;
-import services.ServiceType;
+package proj_1_hospital.hospital;
+import proj_1_hospital.objects.Patient;
+import proj_1_hospital.services.ServiceType;
 
 abstract class DepartmentBase implements Department {
     private ServiceType serviceType;

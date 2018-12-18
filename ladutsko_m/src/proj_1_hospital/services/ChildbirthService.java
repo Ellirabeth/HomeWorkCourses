@@ -1,4 +1,4 @@
-package services;
+package proj_1_hospital.services;
 
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
@@ -7,16 +7,15 @@ import lombok.ToString;
 @NoArgsConstructor
 @EqualsAndHashCode
 @ToString
-final class AppointmentService implements Service {
-
+class ChildbirthService implements Service {
     @Override
     public ServiceType getServiceType() {
-        return ServiceType.APPOINTMENT;
+        return ServiceType.CHILDBIRTH;
     }
 
     @Override
     public void execute() {
-        System.out.println("Execution of doctor`s appointment.");
+        System.out.println("Execution of childbirth.");
     }
 }
 

@@ -1,12 +1,12 @@
-package hospital;
+package proj_1_hospital.hospital;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import objects.Patient;
-import objects.Person;
-import services.Service;
-import services.ServiceType;
+import proj_1_hospital.objects.Patient;
+import proj_1_hospital.objects.Person;
+import proj_1_hospital.services.Service;
+import proj_1_hospital.services.ServiceType;
 
 public final class Hospital {
     private final Registration registration;

@@ -1,9 +1,9 @@
-package main;
+package proj_1_hospital.main;
 
-import hospital.Hospital;
-import objects.Person;
-import objects.PersonImpl;
-import services.ServiceType;
+import proj_1_hospital.hospital.Hospital;
+import proj_1_hospital.objects.Person;
+import proj_1_hospital.objects.PersonImpl;
+import proj_1_hospital.services.ServiceType;
 
 
 

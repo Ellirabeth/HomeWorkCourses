@@ -1,8 +1,4 @@
-package services;
-
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+package proj_1_hospital.services;
 
 public final class ServiceFactory {
     private static final Service APPOINTMENT  = new AppointmentService();

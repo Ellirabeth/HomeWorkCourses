@@ -1,6 +1,6 @@
-package objects;
+package proj_1_hospital.objects;
 
-import services.Service;
+import proj_1_hospital.services.Service;
 
 public interface Patient {
     String getName();

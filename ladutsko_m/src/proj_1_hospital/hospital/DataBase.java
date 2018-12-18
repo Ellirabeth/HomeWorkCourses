@@ -1,12 +1,12 @@
-package hospital;
+package proj_1_hospital.hospital;
 
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import objects.Patient;
-import services.Service;
+import proj_1_hospital.objects.Patient;
+import proj_1_hospital.services.Service;
 
 
 public final class DataBase {

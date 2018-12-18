@@ -8,7 +8,7 @@ import by.psoft.hospital.familyfactory.interfaces.IFamilyFactory;
 import by.psoft.hospital.hospiatal.MaternityHospital;
 
 /**
- * Test of maternity hospital. Used patterns:
+ * Test of maternity proj_1_hospital.hospital. Used patterns:
  * Singleton, Abstract factory, Builder, Observer,
  * Iterator, Facade, Strategy
  */

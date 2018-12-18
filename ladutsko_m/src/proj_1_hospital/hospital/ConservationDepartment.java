@@ -1,8 +1,8 @@
-package hospital;
+package proj_1_hospital.hospital;
 
-import objects.Patient;
-import services.ServiceFactory;
-import services.ServiceType;
+import proj_1_hospital.objects.Patient;
+import proj_1_hospital.services.ServiceFactory;
+import proj_1_hospital.services.ServiceType;
 
 final class ConservationDepartment extends DepartmentBase {
     private static ConservationDepartment instance;

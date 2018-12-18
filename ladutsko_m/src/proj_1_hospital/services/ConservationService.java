@@ -1,4 +1,4 @@
-package services;
+package proj_1_hospital.services;
 
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;

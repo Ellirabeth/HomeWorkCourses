@@ -1,6 +1,6 @@
-package hospital;
+package proj_1_hospital.hospital;
 
-import services.ServiceType;
+import proj_1_hospital.services.ServiceType;
 
 final class ChildbirthDepartment extends DepartmentBase {
     private static ChildbirthDepartment instance;

@@ -33,6 +33,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/jurko_v/pom.xml" />
+        <option value="$PROJECT_DIR$/jurko_v/l2/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/lesson_02_vaadin">
+      <sourceFolder url="file://$MODULE_DIR$/lesson_02_vaadin/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_02_vaadin/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_02_vaadin/target" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_02_vaadin/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson_02_vaadin/target" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

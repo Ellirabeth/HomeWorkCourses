@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Vaadin_app" />
+        <module name="lesson_02_vaadin" />
+        <module name="sample_example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Vaadin_app" target="1.8" />
+      <module name="lesson_02_vaadin" target="1.8" />
+      <module name="sample_example" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,10 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Jurko_V/Jurko_V.iml" filepath="$PROJECT_DIR$/Jurko_V/Jurko_V.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jurko_v/Vaadin_app.iml" filepath="$PROJECT_DIR$/jurko_v/Vaadin_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/aleshkevich_s/aleshkevich_s.iml" filepath="$PROJECT_DIR$/aleshkevich_s/aleshkevich_s.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jurko_v/jurko_v_l2.iml" filepath="$PROJECT_DIR$/jurko_v/jurko_v_l2.iml" />
       <module fileurl="file://$PROJECT_DIR$/kulish/kulish.iml" filepath="$PROJECT_DIR$/kulish/kulish.iml" />
       <module fileurl="file://$PROJECT_DIR$/ladutsko_m/ladutsko_m.iml" filepath="$PROJECT_DIR$/ladutsko_m/ladutsko_m.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jurko_v/lesson_02_vaadin.iml" filepath="$PROJECT_DIR$/jurko_v/lesson_02_vaadin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jurko_v/l2/sample_example.iml" filepath="$PROJECT_DIR$/jurko_v/l2/sample_example.iml" />
       <module fileurl="file://$PROJECT_DIR$/stepanov_crearec/stepanov_crearec.iml" filepath="$PROJECT_DIR$/stepanov_crearec/stepanov_crearec.iml" />
     </modules>
   </component>

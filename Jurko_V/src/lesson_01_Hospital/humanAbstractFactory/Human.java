@@ -1,4 +1,4 @@
-package Hospital.humanAbstractFactory;
+package lesson_01_Hospital.humanAbstractFactory;
 
 public class Human {
     private String name;

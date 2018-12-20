@@ -1,4 +1,4 @@
-package Hospital.humanAbstractFactory;
+package lesson_01_Hospital.humanAbstractFactory;
 
 public interface HumanFactory {
     enum HumanBodyType {

@@ -1,7 +1,7 @@
-package Hospital.humanAbstractFactory.Male;
+package lesson_01_Hospital.humanAbstractFactory.Male;
 
-import Hospital.humanAbstractFactory.Human;
-import Hospital.humanAbstractFactory.HumanFactory;
+import lesson_01_Hospital.humanAbstractFactory.Human;
+import lesson_01_Hospital.humanAbstractFactory.HumanFactory;
 
 public class MaleHumanFactory implements HumanFactory {
 

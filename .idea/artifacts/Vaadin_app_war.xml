@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Vaadin_app:war">
+    <output-path>$PROJECT_DIR$/jurko_v/target</output-path>
+    <root id="archive" name="vaadin-sample-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Vaadin_app:war exploded" />
+    </root>
+  </artifact>
+</component>

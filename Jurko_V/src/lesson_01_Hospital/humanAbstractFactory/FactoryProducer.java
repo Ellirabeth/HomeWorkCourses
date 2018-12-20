@@ -1,6 +1,6 @@
-package Hospital.humanAbstractFactory;
+package lesson_01_Hospital.humanAbstractFactory;
 
-import Hospital.humanAbstractFactory.Male.MaleHumanFactory;
+import lesson_01_Hospital.humanAbstractFactory.Male.MaleHumanFactory;
 
 public class FactoryProducer {
 

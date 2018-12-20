@@ -1,8 +1,8 @@
-package Hospital;
+package lesson_01_Hospital;
 
-import Hospital.humanAbstractFactory.FactoryProducer;
-import Hospital.humanAbstractFactory.Human;
-import Hospital.humanAbstractFactory.HumanFactory;
+import lesson_01_Hospital.humanAbstractFactory.FactoryProducer;
+import lesson_01_Hospital.humanAbstractFactory.Human;
+import lesson_01_Hospital.humanAbstractFactory.HumanFactory;
 
 public class Main {
     public static void main (String arqs[]) {

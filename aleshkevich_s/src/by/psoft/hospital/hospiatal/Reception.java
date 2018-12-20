@@ -1,10 +1,10 @@
 package by.psoft.hospital.hospiatal;
 
-import by.psoft.hospital.family.interfaces.IFamily;
-import by.psoft.hospital.hospiatal.iterator.Iterator;
-
 import java.util.LinkedList;
 import java.util.Queue;
+
+import by.psoft.hospital.family.interfaces.IFamily;
+import by.psoft.hospital.hospiatal.iterator.Iterator;
 
 public class Reception implements Iterator<IFamily> {
 
@@ -15,7 +15,7 @@ public class Reception implements Iterator<IFamily> {
     }
 
     public void acceptFamily(IFamily family) {
-        System.out.println(String.format("The hospital received %s family, %s and %s",
+        System.out.println(String.format("The proj_1_hospital.hospital received %s family, %s and %s",
                 family.getNationality().name().toLowerCase(), family.getWife().getName(), family.getHusband().getName()));
         queue.add(family);
     }

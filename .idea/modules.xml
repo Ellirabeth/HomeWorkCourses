@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HomeWorkCourses.iml" filepath="$PROJECT_DIR$/HomeWorkCourses.iml" />
       <module fileurl="file://$PROJECT_DIR$/Jurko_V/Jurko_V.iml" filepath="$PROJECT_DIR$/Jurko_V/Jurko_V.iml" />
       <module fileurl="file://$PROJECT_DIR$/aleshkevich_s/aleshkevich_s.iml" filepath="$PROJECT_DIR$/aleshkevich_s/aleshkevich_s.iml" />
       <module fileurl="file://$PROJECT_DIR$/kulish/kulish.iml" filepath="$PROJECT_DIR$/kulish/kulish.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ladutsko_m/ladutsko_m.iml" filepath="$PROJECT_DIR$/ladutsko_m/ladutsko_m.iml" />
     </modules>
   </component>
 </project>

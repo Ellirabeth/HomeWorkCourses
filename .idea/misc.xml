@@ -26,14 +26,15 @@
     <option name="excludeFilter" value="" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="gwt" url="file://$PROJECT_DIR$/jurko_v" />
-    <file type="web" url="file://$PROJECT_DIR$/jurko_v" />
+    <file type="gwt" url="file://$PROJECT_DIR$/Jurko_V" />
+    <file type="web" url="file://$PROJECT_DIR$/Jurko_V" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/jurko_v/pom.xml" />
         <option value="$PROJECT_DIR$/jurko_v/l2/pom.xml" />
+        <option value="$PROJECT_DIR$/kulish/pom.xml" />
       </list>
     </option>
   </component>

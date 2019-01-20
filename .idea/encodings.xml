@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/jurko_v" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jurko_v/l2" charset="UTF-8" />
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/Jurko_V" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kulish" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kulish/skHttpServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kulish/skRmiClient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kulish/skRmiCommon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kulish/skRmiServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kulish/skServlet" charset="UTF-8" />
   </component>
 </project>

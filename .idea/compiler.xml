@@ -9,11 +9,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="lesson_02_vaadin" />
         <module name="sample_example" />
+        <module name="skHttpServer" />
+        <module name="skRmiClient" />
+        <module name="skRmiCommon" />
+        <module name="skRmiServer" />
+        <module name="skServlet" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="kulish" target="1.8" />
       <module name="lesson_02_vaadin" target="1.8" />
       <module name="sample_example" target="1.8" />
+      <module name="skHttpServer" target="1.8" />
+      <module name="skRmiClient" target="1.8" />
+      <module name="skRmiCommon" target="1.8" />
+      <module name="skRmiServer" target="1.8" />
+      <module name="skServlet" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

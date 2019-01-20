@@ -1,0 +1,1 @@
+https://jsehelper.blogspot.com/2016/05/maven-2.html - жизненный цикл Мавен сборки

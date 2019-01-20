@@ -10,6 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/ladutsko_m/ladutsko_m.iml" filepath="$PROJECT_DIR$/ladutsko_m/ladutsko_m.iml" />
       <module fileurl="file://$PROJECT_DIR$/jurko_v/lesson_02_vaadin.iml" filepath="$PROJECT_DIR$/jurko_v/lesson_02_vaadin.iml" />
       <module fileurl="file://$PROJECT_DIR$/jurko_v/l2/sample_example.iml" filepath="$PROJECT_DIR$/jurko_v/l2/sample_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kulish/skHttpServer/skHttpServer.iml" filepath="$PROJECT_DIR$/kulish/skHttpServer/skHttpServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kulish/skRmiClient/skRmiClient.iml" filepath="$PROJECT_DIR$/kulish/skRmiClient/skRmiClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kulish/skRmiCommon/skRmiCommon.iml" filepath="$PROJECT_DIR$/kulish/skRmiCommon/skRmiCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kulish/skRmiServer/skRmiServer.iml" filepath="$PROJECT_DIR$/kulish/skRmiServer/skRmiServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kulish/skServlet/skServlet.iml" filepath="$PROJECT_DIR$/kulish/skServlet/skServlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/stepanov_crearec/stepanov_crearec.iml" filepath="$PROJECT_DIR$/stepanov_crearec/stepanov_crearec.iml" />
     </modules>
   </component>

@@ -1,1 +1,6 @@
 https://jsehelper.blogspot.com/2016/05/maven-2.html - жизненный цикл Мавен сборки
+
+H2 install (https://hub.docker.com/r/oscarfonts/h2):
+docker run -d -p 1521:1521 -p 81:81 -v /h2-data:/opt/h2-data --name=MyH2Instance oscarfonts/h2
+
+http db: http://192.168.99.100:81

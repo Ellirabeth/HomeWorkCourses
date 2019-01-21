@@ -1,22 +1,29 @@
 import command.CreateUserCommand;
 import model.User;
 
+import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
+import java.util.concurrent.ExecutionException;
 
 public class SKRmiClient {
+    private RmiCommandManager commandManager;
 
-    public void SKRmiClient() {
+    SKRmiClient() {
         try {
             Registry registry = LocateRegistry.getRegistry(2005);
 
-            RmiCommandManager commandManager = new RmiCommandManager(registry);
-            User usr = new User();
-            usr.setName("admin");
-            usr.setPasswd("123");
-            User user = commandManager.startCommand(CreateUserCommand.class, usr);
+            commandManager = new RmiCommandManager(registry);
+        } catch (Exception ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
 
-            System.out.println(user.getId() + " " + user.getName() + " " + user.getPasswd());
+    User addUser(User user) throws InterruptedException, ExecutionException, RemoteException {
+        User resUser = commandManager.startCommand(CreateUserCommand.class, user);
+
+        System.out.println(user.getId() + " " + user.getName() + " " + user.getPasswd());
+        return resUser;
 //            commands.put(CreateUserCommand.class, new CreateUserCommandImpl());
 //            scm.setCommands(commands);
 //
@@ -24,8 +31,6 @@ public class SKRmiClient {
 //            remoteServerCommandManager = UnicastRemoteObject.exportObject(scm, 2005);
 //
 //            registry.bind(ServerCommandManager.class.getName(), remoteServerCommandManager);
-        } catch (Exception ex) {
-            System.out.println(ex.getMessage());
-        }
+
     }
 }

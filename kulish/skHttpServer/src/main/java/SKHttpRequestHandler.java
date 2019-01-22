@@ -17,7 +17,7 @@ import java.util.*;
 public class SKHttpRequestHandler implements HttpHandler {
     private Map<String, HttpServlet> list = new HashMap<>();
 
-    public boolean loadServletMap() throws InstantiationException, IllegalAccessException {
+    public boolean loadServletMap() throws InstantiationException, IllegalAccessException, ServletException {
         boolean wasLoad = false;
         ClassLoader systemClassLoader = ClassLoader.getSystemClassLoader();
         Reflections reflections = new Reflections(systemClassLoader);
@@ -32,6 +32,7 @@ public class SKHttpRequestHandler implements HttpHandler {
                     httpServlet = list.get(path);
                     if (httpServlet == null) {
                         HttpServlet wsInstance = (HttpServlet) cnt.newInstance();
+                        wsInstance.init();
                         list.put(path, wsInstance);
                         wasLoad = true;
                     }
@@ -239,7 +240,7 @@ public class SKHttpRequestHandler implements HttpHandler {
             if(list.containsKey(path)) {
                 list.get(path).service(req, resp);
             } else {
-                System.out.println("nooo");
+                System.out.println("nooo333");
             }
 //            if (servlet == null) {
 //                servlet = new SKServlet();

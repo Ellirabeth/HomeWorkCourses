@@ -9,6 +9,6 @@ import java.util.concurrent.ExecutionException;
 
 public interface ServerCommandManager extends Remote, Serializable {
 
-    <T, D extends TransferObject> D execute(final Class<T> clazz, D obj) throws RemoteException, ExecutionException, InterruptedException;
+    <T, D extends TransferObject> D startCommand(final Class<T> clazz, D obj) throws RemoteException, ExecutionException, InterruptedException;
 
 }

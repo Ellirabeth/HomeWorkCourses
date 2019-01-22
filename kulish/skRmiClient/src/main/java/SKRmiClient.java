@@ -1,25 +1,27 @@
 import command.CreateUserCommand;
+import command.IRmiCommandManager;
 import model.User;
 
-import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
-import java.util.concurrent.ExecutionException;
 
 public class SKRmiClient {
-    private RmiCommandManager commandManager;
+    private IRmiCommandManager commandManager;
 
-    SKRmiClient() {
+    SKRmiClient(boolean isLocal) {
         try {
-            Registry registry = LocateRegistry.getRegistry(2005);
-
-            commandManager = new RmiCommandManager(registry);
+            if(isLocal) {
+                commandManager = new LocalServerCommandManagerImpl();
+            } else {
+                Registry registry = LocateRegistry.getRegistry(2005);
+                commandManager = new RmiCommandManager(registry);
+            }
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
     }
 
-    User addUser(User user) throws InterruptedException, ExecutionException, RemoteException {
+    User addUser(User user) throws Exception {
         User resUser = commandManager.startCommand(CreateUserCommand.class, user);
 
         System.out.println(user.getId() + " " + user.getName() + " " + user.getPasswd());

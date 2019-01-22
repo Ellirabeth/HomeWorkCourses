@@ -1,3 +1,4 @@
+import command.IRmiCommandManager;
 import command.ServerCommandManager;
 import lombok.Setter;
 import model.TransferObject;
@@ -7,7 +8,7 @@ import java.rmi.RemoteException;
 import java.rmi.registry.Registry;
 import java.util.concurrent.ExecutionException;
 
-public class RmiCommandManager {
+public class RmiCommandManager implements IRmiCommandManager {
 
         @Setter
         private Registry registry;
@@ -20,7 +21,7 @@ public class RmiCommandManager {
         }
 
         public <T, D extends TransferObject> D startCommand(final Class<T> clazz, final D obj) throws RemoteException, ExecutionException, InterruptedException {
-            D result = scm.execute(clazz, obj);
+            D result = scm.startCommand(clazz, obj);
             return result;
         }
     }

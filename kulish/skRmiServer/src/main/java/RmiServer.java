@@ -13,8 +13,20 @@ import java.util.concurrent.Executors;
 
 public class RmiServer {
     public static final ExecutorService executorService = Executors.newFixedThreadPool(10);
+    public static RmiServer instance;
 
     public static void main(String args[]) throws RemoteException {
+        RmiServer.getInstance();
+    }
+
+    public static RmiServer getInstance() {
+        if (instance == null) {
+            instance = new RmiServer();
+        }
+        return instance;
+    }
+
+    private RmiServer() {
         RmiServerCommandManagerImpl scm = new RmiServerCommandManagerImpl();
 
         try {

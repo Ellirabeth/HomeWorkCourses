@@ -73,8 +73,8 @@ public class SKServlet extends HttpServlet {
     public static void main(String[] args) throws IOException, ServletException {
         //RmiServer rmiServer = RmiServer.getInstance();
 
-        SKServlet servlet = CDI.current().select(SKServlet.class).get();
-        //SKServlet servlet = new SKServlet();
+//        SKServlet servlet = CDI.current().select(SKServlet.class).get();
+        SKServlet servlet = new SKServlet();
         servlet.init();
         servlet.go(System.out, true);
     }
